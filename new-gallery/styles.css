@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("/interactivity/bg.jpg");
+}
+.gallery-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.gallery-img {
+  display: none;
+  max-height: 600px;
+  max-width: 700px;
+}
+
+.active {
+  display: block;
+}
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border: 0.2rem solid rgb(34, 34, 34);
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 254, 254);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.back {
+  margin-right: 1rem;
+}
+
+.btns :hover {
+  background-color: lightskyblue;
+}

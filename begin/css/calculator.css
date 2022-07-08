@@ -30,7 +30,8 @@ body {
   margin-left: auto;
   border: 2px solid black;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 12px;
+  margin-top: 3rem;
 }
 .double {
   size: 300px;
@@ -89,4 +90,13 @@ body {
 }
 .calc-button.egal {
   border-radius: 0 0 1rem 0;
+  padding: -1rem;
+}
+.screen {
+  color: black;
+  background-color: var(--my-grey);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+  padding-right: 10px;
 }

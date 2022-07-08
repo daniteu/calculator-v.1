@@ -1,0 +1,41 @@
+body {
+  background-color: rgba(224, 246, 228, 0.438);
+  background-image: url("/interactivity/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+}
+.swiper {
+  width: 900px;
+  height: 600px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+img {
+  height: 600px;
+  width: 600px;
+  border: 0.5rem solid black;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.copyright,
+a {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: rgb(162, 226, 244);
+}
